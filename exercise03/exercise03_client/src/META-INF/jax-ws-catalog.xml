@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://opstrup:8080/exercise03_service/calendarWSDLService?wsdl" uri="wsdl/opstrup_8080/exercise03_service/calendarWSDLService.wsdl"/>
+</catalog>
