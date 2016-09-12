@@ -2,3 +2,9 @@ axis.jar
 OpenESB-SE-3.0.5
 glassfish-4.1.1.zip
 glassfish4
+/calendar/nbproject/private/
+/calendar/build/
+/exercise03_service/nbproject/private/
+/exercise03_service/build/
+/exercise03_client/nbproject/private/
+/exercise03_client/build/
