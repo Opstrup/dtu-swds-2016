@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="1" failures="0" hostname="opstrup" name="testExercise01" skipped="0" tests="5" time="0.956" timestamp="2016-09-05T06:43:22">
+<testsuite errors="5" failures="0" hostname="opstrup" name="testExercise01" skipped="0" tests="5" time="0.644" timestamp="2016-09-26T07:26:56">
   <properties>
     <property name="libs.jsp-compiler.javadoc" value="" />
     <property name="netbeans.autoupdate.country" value="DK" />
@@ -12,7 +12,7 @@
     <property name="ant.core.lib" value="/Users/Opstrup/Documents/dtu/sdws/OpenESB-SE-3.0.5/OE-Studio/netbeans/extide/ant/lib/ant.jar" />
     <property name="javadoc.windowtitle" value="" />
     <property name="libs.jsp-compilation.javadoc" value="" />
-    <property name="user.dir" value="/Users/Opstrup/Documents/dtu/sdws/exercise01_client" />
+    <property name="user.dir" value="/Users/Opstrup/Documents/dtu/sdws/exercise01/exercise01_client" />
     <property name="com.apple.mrj.application.apple.menu.about.name" value="OpenESB Studio" />
     <property name="libs.javaee-api-7.0.src" value="" />
     <property name="java.vm.version" value="25.20-b23" />
@@ -59,7 +59,7 @@
     <property name="copylibs.rebase" value="true" />
     <property name="libs.spring-webmvc3.0.maven-pom" value="" />
     <property name="libs.swing-layout.maven-pom" value="" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner testExercise01 skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/Opstrup/Documents/dtu/sdws/exercise01_client/build/test/results/TEST-testExercise01.xml crashfile=/Users/Opstrup/Documents/dtu/sdws/exercise01_client/build/junitvmwatcher5209291387013223109.properties propsfile=/Users/Opstrup/Documents/dtu/sdws/exercise01_client/build/junit3426290486033965217.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner testExercise01 skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/Opstrup/Documents/dtu/sdws/exercise01/exercise01_client/build/test/results/TEST-testExercise01.xml crashfile=/Users/Opstrup/Documents/dtu/sdws/exercise01/exercise01_client/build/junitvmwatcher3232651057945245831.properties propsfile=/Users/Opstrup/Documents/dtu/sdws/exercise01/exercise01_client/build/junit1097300339752374344.properties" />
     <property name="build.classes.dir" value="build/classes" />
     <property name="build.sysclasspath" value="ignore" />
     <property name="ap.supported.internal" value="true" />
@@ -100,7 +100,7 @@
     <property name="javadoc.splitindex" value="true" />
     <property name="file.separator" value="/" />
     <property name="libs.Java-EE-GlassFish-v3-Prelude.maven-pom" value="" />
-    <property name="javac.includesfile.binary" value="/Users/Opstrup/Documents/dtu/sdws/exercise01_client/null607661346" />
+    <property name="javac.includesfile.binary" value="/Users/Opstrup/Documents/dtu/sdws/exercise01/exercise01_client/null1741302385" />
     <property name="libs.junit_4.maven-pom" value="" />
     <property name="mkdist.disabled" value="false" />
     <property name="javac.test.processorpath" value=":build/classes:/Users/Opstrup/Documents/dtu/sdws/OpenESB-SE-3.0.5/OE-Studio/netbeans/platform/modules/ext/junit-4.10.jar" />
@@ -114,7 +114,7 @@
     <property name="libs.hibernate4-persistencemodelgen.javadoc" value="" />
     <property name="libs.jaxb.javadoc" value="/Users/Opstrup/Documents/dtu/sdws/OpenESB-SE-3.0.5/OE-Studio/netbeans/ide/docs/jaxb-api-doc.zip" />
     <property name="libs.struts.classpath" value="/Users/Opstrup/Documents/dtu/sdws/OpenESB-SE-3.0.5/OE-Studio/netbeans/enterprise/modules/ext/struts/antlr-2.7.2.jar:/Users/Opstrup/Documents/dtu/sdws/OpenESB-SE-3.0.5/OE-Studio/netbeans/enterprise/modules/ext/struts/bsf-2.3.0.jar:/Users/Opstrup/Documents/dtu/sdws/OpenESB-SE-3.0.5/OE-Studio/netbeans/enterprise/modules/ext/struts/commons-beanutils-1.8.0.jar:/Users/Opstrup/Documents/dtu/sdws/OpenESB-SE-3.0.5/OE-Studio/netbeans/enterprise/modules/ext/struts/commons-chain-1.2.jar:/Users/Opstrup/Documents/dtu/sdws/OpenESB-SE-3.0.5/OE-Studio/netbeans/enterprise/modules/ext/struts/commons-digester-1.8.jar:/Users/Opstrup/Documents/dtu/sdws/OpenESB-SE-3.0.5/OE-Studio/netbeans/enterprise/modules/ext/struts/commons-fileupload-1.1.1.jar:/Users/Opstrup/Documents/dtu/sdws/OpenESB-SE-3.0.5/OE-Studio/netbeans/enterprise/modules/ext/struts/commons-io-1.1.jar:/Users/Opstrup/Documents/dtu/sdws/OpenESB-SE-3.0.5/OE-Studio/netbeans/enterprise/modules/ext/struts/commons-logging-1.0.4.jar:/Users/Opstrup/Documents/dtu/sdws/OpenESB-SE-3.0.5/OE-Studio/netbeans/enterprise/modules/ext/struts/commons-validator-1.3.1.jar:/Users/Opstrup/Documents/dtu/sdws/OpenESB-SE-3.0.5/OE-Studio/netbeans/enterprise/modules/ext/struts/jstl-1.0.2.jar:/Users/Opstrup/Documents/dtu/sdws/OpenESB-SE-3.0.5/OE-Studio/netbeans/enterprise/modules/ext/struts/oro-2.0.8.jar:/Users/Opstrup/Documents/dtu/sdws/OpenESB-SE-3.0.5/OE-Studio/netbeans/enterprise/modules/ext/struts/standard-1.0.6.jar:/Users/Opstrup/Documents/dtu/sdws/OpenESB-SE-3.0.5/OE-Studio/netbeans/enterprise/modules/ext/struts/struts-core-1.3.10.jar:/Users/Opstrup/Documents/dtu/sdws/OpenESB-SE-3.0.5/OE-Studio/netbeans/enterprise/modules/ext/struts/struts-el-1.3.10.jar:/Users/Opstrup/Documents/dtu/sdws/OpenESB-SE-3.0.5/OE-Studio/netbeans/enterprise/modules/ext/struts/struts-extras-1.3.10.jar:/Users/Opstrup/Documents/dtu/sdws/OpenESB-SE-3.0.5/OE-Studio/netbeans/enterprise/modules/ext/struts/struts-faces-1.3.10.jar:/Users/Opstrup/Documents/dtu/sdws/OpenESB-SE-3.0.5/OE-Studio/netbeans/enterprise/modules/ext/struts/struts-mailreader-dao-1.3.10.jar:/Users/Opstrup/Documents/dtu/sdws/OpenESB-SE-3.0.5/OE-Studio/netbeans/enterprise/modules/ext/struts/struts-scripting-1.3.10.jar:/Users/Opstrup/Documents/dtu/sdws/OpenESB-SE-3.0.5/OE-Studio/netbeans/enterprise/modules/ext/struts/struts-taglib-1.3.10.jar:/Users/Opstrup/Documents/dtu/sdws/OpenESB-SE-3.0.5/OE-Studio/netbeans/enterprise/modules/ext/struts/struts-tiles-1.3.10.jar" />
-    <property name="javac.includes.binary" value="/Users/Opstrup/Documents/dtu/sdws/exercise01_client/build/test/classes/testExercise01.class" />
+    <property name="javac.includes.binary" value="/Users/Opstrup/Documents/dtu/sdws/exercise01/exercise01_client/build/test/classes/testExercise01.class" />
     <property name="ant.home" value="/Users/Opstrup/Documents/dtu/sdws/OpenESB-SE-3.0.5/OE-Studio/netbeans/extide/ant" />
     <property name="libs.junit_4.src" value="/Users/Opstrup/Documents/dtu/sdws/OpenESB-SE-3.0.5/OE-Studio/netbeans/java/docs/junit-4.10-sources.jar" />
     <property name="libs.testng.classpath" value="/Users/Opstrup/Documents/dtu/sdws/OpenESB-SE-3.0.5/OE-Studio/netbeans/platform/modules/ext/testng-6.8.1-dist.jar" />
@@ -129,7 +129,7 @@
     <property name="libs.spring-framework400.src" value="" />
     <property name="libs.PostgreSQLDriver.src" value="" />
     <property name="sun.arch.data.model" value="64" />
-    <property name="basedir" value="/Users/Opstrup/Documents/dtu/sdws/exercise01_client" />
+    <property name="basedir" value="/Users/Opstrup/Documents/dtu/sdws/exercise01/exercise01_client" />
     <property name="libs.jpa20-persistence.maven-pom" value="" />
     <property name="jar.compress" value="false" />
     <property name="libs.javaee-web-api-7.0.classpath" value="/Users/Opstrup/Documents/dtu/sdws/OpenESB-SE-3.0.5/OE-Studio/netbeans/enterprise/modules/ext/javaee-web-api-7.0.jar" />
@@ -157,13 +157,13 @@
     <property name="sun.java2d.d3d" value="false" />
     <property name="libs.hibernate4-persistence.maven-pom" value="" />
     <property name="gopherProxySet" value="false" />
-    <property name="ant.file.exercise01_client-impl" value="/Users/Opstrup/Documents/dtu/sdws/exercise01_client/nbproject/build-impl.xml" />
+    <property name="ant.file.exercise01_client-impl" value="/Users/Opstrup/Documents/dtu/sdws/exercise01/exercise01_client/nbproject/build-impl.xml" />
     <property name="libs.PostgreSQLDriver.maven-pom" value="" />
     <property name="java.class.version" value="52.0" />
     <property name="libs.JAVADB_DRIVER_LABEL.classpath" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/db/lib/derby.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/db/lib/derbyclient.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/db/lib/derbynet.jar" />
     <property name="libs.hibernate4-persistencemodelgen.maven-pom" value="" />
     <property name="libs.javaee-endorsed-api-6.0.src" value="" />
-    <property name="wsdl-OrderService" value="/Users/Opstrup/Documents/dtu/sdws/exercise01_client/xml-resources/web-service-references/OrderService/wsdl/localhost_8080/exercise01_service/OrderService.wsdl" />
+    <property name="wsdl-OrderService" value="/Users/Opstrup/Documents/dtu/sdws/exercise01/exercise01_client/xml-resources/web-service-references/OrderService/wsdl/localhost_8080/exercise01_service/OrderService.wsdl" />
     <property name="libs.eclipselink.javadoc" value="/Users/Opstrup/Documents/dtu/sdws/OpenESB-SE-3.0.5/OE-Studio/netbeans/java/modules/ext/docs/javax.persistence-2.1.0-doc.zip" />
     <property name="libs.jsp-compilation.maven-pom" value="" />
     <property name="user.properties.file" value="/Users/Opstrup/Library/Application Support/OpenESB_Studio/3.1.0-SNAPSHOT/build.properties" />
@@ -177,7 +177,7 @@
     <property name="libs.spring-framework300.src" value="" />
     <property name="libs.PojoSELib.src" value="/Users/Opstrup/Documents/dtu/sdws/OpenESB-SE-3.0.5/OE-Studio/netbeans/soa/modules/ext/sun-pojo-engine-api-src.jar" />
     <property name="libs.jstl.src" value="" />
-    <property name="empty.dir" value="/Users/Opstrup/Documents/dtu/sdws/exercise01_client/build/empty" />
+    <property name="empty.dir" value="/Users/Opstrup/Documents/dtu/sdws/exercise01/exercise01_client/build/empty" />
     <property name="version-output" value="java version &quot;1.8" />
     <property name="test.binarytestincludes" value="" />
     <property name="libs.hibernate4-persistencemodelgen.src" value="" />
@@ -216,7 +216,7 @@
     <property name="libs.jsp-compiler.classpath" value="/Users/Opstrup/Documents/dtu/sdws/OpenESB-SE-3.0.5/OE-Studio/netbeans/enterprise/ant/extra/jspcompile.jar" />
     <property name="javac.processorpath" value="" />
     <property name="javac.compilerargs" value="" />
-    <property name="ant.file" value="/Users/Opstrup/Documents/dtu/sdws/exercise01_client/build.xml" />
+    <property name="ant.file" value="/Users/Opstrup/Documents/dtu/sdws/exercise01/exercise01_client/build.xml" />
     <property name="libs.beans-binding.maven-pom" value="" />
     <property name="libs.hibernate4-support.javadoc" value="/Users/Opstrup/Documents/dtu/sdws/OpenESB-SE-3.0.5/OE-Studio/netbeans/java/modules/ext/docs/javax.persistence-2.1.0-doc.zip" />
     <property name="libs.jsf12.classpath" value="/Users/Opstrup/Documents/dtu/sdws/OpenESB-SE-3.0.5/OE-Studio/netbeans/enterprise/modules/ext/jsf-1_2/commons-beanutils.jar:/Users/Opstrup/Documents/dtu/sdws/OpenESB-SE-3.0.5/OE-Studio/netbeans/enterprise/modules/ext/jsf-1_2/commons-collections.jar:/Users/Opstrup/Documents/dtu/sdws/OpenESB-SE-3.0.5/OE-Studio/netbeans/enterprise/modules/ext/jsf-1_2/commons-digester.jar:/Users/Opstrup/Documents/dtu/sdws/OpenESB-SE-3.0.5/OE-Studio/netbeans/enterprise/modules/ext/jsf-1_2/commons-logging.jar:/Users/Opstrup/Documents/dtu/sdws/OpenESB-SE-3.0.5/OE-Studio/netbeans/enterprise/modules/ext/jsf-1_2/jsf-api.jar:/Users/Opstrup/Documents/dtu/sdws/OpenESB-SE-3.0.5/OE-Studio/netbeans/enterprise/modules/ext/jsf-1_2/jsf-impl.jar" />
@@ -293,7 +293,7 @@
     <property name="libs.testng.maven-pom" value="" />
     <property name="libs.jaxb.src" value="" />
     <property name="libs.Encoder-HL7.maven-pom" value="" />
-    <property name="work.dir" value="/Users/Opstrup/Documents/dtu/sdws/exercise01_client" />
+    <property name="work.dir" value="/Users/Opstrup/Documents/dtu/sdws/exercise01/exercise01_client" />
     <property name="libs.jaxb.classpath" value="/Users/Opstrup/Documents/dtu/sdws/OpenESB-SE-3.0.5/OE-Studio/netbeans/ide/modules/ext/jaxb/jaxb-impl.jar:/Users/Opstrup/Documents/dtu/sdws/OpenESB-SE-3.0.5/OE-Studio/netbeans/ide/modules/ext/jaxb/jaxb-xjc.jar:/Users/Opstrup/Documents/dtu/sdws/OpenESB-SE-3.0.5/OE-Studio/netbeans/ide/modules/ext/jaxb/jaxb1-impl.jar:/Users/Opstrup/Documents/dtu/sdws/OpenESB-SE-3.0.5/OE-Studio/netbeans/ide/modules/ext/jaxb/activation.jar:/Users/Opstrup/Documents/dtu/sdws/OpenESB-SE-3.0.5/OE-Studio/netbeans/ide/modules/ext/jaxb/api/jaxb-api.jar:/Users/Opstrup/Documents/dtu/sdws/OpenESB-SE-3.0.5/OE-Studio/netbeans/ide/modules/ext/jaxb/api/jsr173_1.0_api.jar" />
     <property name="do.depend" value="false" />
     <property name="ant.file.type.exercise01_client" value="file" />
@@ -312,7 +312,7 @@
     <property name="junit.forkmode" value="perTest" />
     <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/jre/classes" />
     <property name="javac.target" value="1.8" />
-    <property name="built-jar.properties" value="/Users/Opstrup/Documents/dtu/sdws/exercise01_client/build/built-jar.properties" />
+    <property name="built-jar.properties" value="/Users/Opstrup/Documents/dtu/sdws/exercise01/exercise01_client/build/built-jar.properties" />
     <property name="build.test.classes.dir" value="build/test/classes" />
     <property name="libs.Encoder-Framework.maven-pom" value="" />
     <property name="src.dir" value="src" />
@@ -324,7 +324,7 @@
     <property name="libs.JAVADB_DRIVER_LABEL.maven-pom" value="" />
     <property name="libs.struts.javadoc" value="/Users/Opstrup/Documents/dtu/sdws/OpenESB-SE-3.0.5/OE-Studio/netbeans/enterprise/docs/struts-1.3.10-javadoc.zip" />
     <property name="ignore.failing.tests" value="true" />
-    <property name="ant.file.exercise01_client" value="/Users/Opstrup/Documents/dtu/sdws/exercise01_client/build.xml" />
+    <property name="ant.file.exercise01_client" value="/Users/Opstrup/Documents/dtu/sdws/exercise01/exercise01_client/build.xml" />
     <property name="libs.Comet-GlassFish-v3.classpath" value="" />
     <property name="libs.javaee-web-api-7.0.src" value="" />
     <property name="libs.primefaces.src" value="" />
@@ -357,12 +357,12 @@
     <property name="libs.restlib.maven-pom" value="" />
     <property name="libs.jpa2-persistence.javadoc" value="/Users/Opstrup/Documents/dtu/sdws/OpenESB-SE-3.0.5/OE-Studio/netbeans/java/modules/ext/docs/javax.persistence-2.1.0-doc.zip" />
     <property name="ant.file.type.exercise01_client-impl" value="file" />
-    <property name="java.class.path" value="/Users/Opstrup/Documents/dtu/sdws/exercise01_client/build/classes:/Users/Opstrup/Documents/dtu/sdws/OpenESB-SE-3.0.5/OE-Studio/netbeans/platform/modules/ext/junit-4.10.jar:/Users/Opstrup/Documents/dtu/sdws/exercise01_client/build/test/classes:/Users/Opstrup/Documents/dtu/sdws/OpenESB-SE-3.0.5/OE-Studio/netbeans/extide/ant/lib/ant-launcher.jar:/Users/Opstrup/Documents/dtu/sdws/OpenESB-SE-3.0.5/OE-Studio/netbeans/extide/ant/lib/ant.jar:/Users/Opstrup/Documents/dtu/sdws/OpenESB-SE-3.0.5/OE-Studio/netbeans/extide/ant/lib/ant-junit.jar:/Users/Opstrup/Documents/dtu/sdws/OpenESB-SE-3.0.5/OE-Studio/netbeans/extide/ant/lib/ant-junit4.jar" />
+    <property name="java.class.path" value="/Users/Opstrup/Documents/dtu/sdws/exercise01/exercise01_client/build/classes:/Users/Opstrup/Documents/dtu/sdws/OpenESB-SE-3.0.5/OE-Studio/netbeans/platform/modules/ext/junit-4.10.jar:/Users/Opstrup/Documents/dtu/sdws/exercise01/exercise01_client/build/test/classes:/Users/Opstrup/Documents/dtu/sdws/OpenESB-SE-3.0.5/OE-Studio/netbeans/extide/ant/lib/ant-launcher.jar:/Users/Opstrup/Documents/dtu/sdws/OpenESB-SE-3.0.5/OE-Studio/netbeans/extide/ant/lib/ant.jar:/Users/Opstrup/Documents/dtu/sdws/OpenESB-SE-3.0.5/OE-Studio/netbeans/extide/ant/lib/ant-junit.jar:/Users/Opstrup/Documents/dtu/sdws/OpenESB-SE-3.0.5/OE-Studio/netbeans/extide/ant/lib/ant-junit4.jar" />
     <property name="apple.laf.useScreenMenuBar" value="true" />
     <property name="do.mkdist" value="true" />
     <property name="libs.absolutelayout.src" value="" />
     <property name="libs.jpa20-persistence.classpath" value="/Users/Opstrup/Documents/dtu/sdws/OpenESB-SE-3.0.5/OE-Studio/netbeans/java/modules/ext/eclipselink/javax.persistence_2.1.0.v201304241213.jar" />
-    <property name="os.version" value="10.11.6" />
+    <property name="os.version" value="10.12" />
     <property name="application.args" value="" />
     <property name="libs.EclipseLink-GlassFish-v3.javadoc" value="/Users/Opstrup/Documents/dtu/sdws/OpenESB-SE-3.0.5/OE-Studio/netbeans/enterprise/docs/javaee-doc-api.jar" />
     <property name="libs.javaee-api-7.0.maven-pom" value="" />
@@ -410,23 +410,209 @@
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit" />
     <property name="libs.javaee-web-api-7.0.javadoc" value="/Users/Opstrup/Documents/dtu/sdws/OpenESB-SE-3.0.5/OE-Studio/netbeans/enterprise/docs/javaee-doc-api.jar" />
   </properties>
-  <testcase classname="testExercise01" name="test_orderProduct_returns_correct_orderNumber" time="0.338" />
-  <testcase classname="testExercise01" name="test_getOrderInfo_notPaid_returns_correct_string" time="0.126" />
-  <testcase classname="testExercise01" name="test_getOrderInfo_returns_string" time="0.111" />
-  <testcase classname="testExercise01" name="test_getOrderInfo_paid_returns_correct_string" time="0.183" />
-  <testcase classname="testExercise01" name="test_getOrderInfo_orderNumber_not_found" time="0.116">
-    <error message="Client received SOAP Fault from server: java.lang.NullPointerException Please see the server log to find more detail regarding exact cause of the failure." type="com.sun.xml.internal.ws.fault.ServerSOAPFaultException">com.sun.xml.internal.ws.fault.ServerSOAPFaultException: Client received SOAP Fault from server: java.lang.NullPointerException Please see the server log to find more detail regarding exact cause of the failure.
-	at com.sun.xml.internal.ws.fault.SOAP11Fault.getProtocolException(SOAP11Fault.java:178)
-	at com.sun.xml.internal.ws.fault.SOAPFaultBuilder.createException(SOAPFaultBuilder.java:116)
-	at com.sun.xml.internal.ws.client.sei.StubHandler.readResponse(StubHandler.java:238)
-	at com.sun.xml.internal.ws.db.DatabindingImpl.deserializeResponse(DatabindingImpl.java:189)
-	at com.sun.xml.internal.ws.db.DatabindingImpl.deserializeResponse(DatabindingImpl.java:276)
-	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:104)
+  <testcase classname="testExercise01" name="test_getOrderInfo_returns_string" time="0.331">
+    <error message="HTTP transport error: java.net.ConnectException: Connection refused" type="com.sun.xml.internal.ws.client.ClientTransportException">com.sun.xml.internal.ws.client.ClientTransportException: HTTP transport error: java.net.ConnectException: Connection refused
+	at com.sun.xml.internal.ws.transport.http.client.HttpClientTransport.getOutput(HttpClientTransport.java:117)
+	at com.sun.xml.internal.ws.transport.http.client.HttpTransportPipe.process(HttpTransportPipe.java:208)
+	at com.sun.xml.internal.ws.transport.http.client.HttpTransportPipe.processRequest(HttpTransportPipe.java:130)
+	at com.sun.xml.internal.ws.transport.DeferredTransportPipe.processRequest(DeferredTransportPipe.java:95)
+	at com.sun.xml.internal.ws.api.pipe.Fiber.__doRun(Fiber.java:1121)
+	at com.sun.xml.internal.ws.api.pipe.Fiber._doRun(Fiber.java:1035)
+	at com.sun.xml.internal.ws.api.pipe.Fiber.doRun(Fiber.java:1004)
+	at com.sun.xml.internal.ws.api.pipe.Fiber.runSync(Fiber.java:862)
+	at com.sun.xml.internal.ws.client.Stub.process(Stub.java:448)
+	at com.sun.xml.internal.ws.client.sei.SEIStub.doProcess(SEIStub.java:178)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:93)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:77)
+	at com.sun.xml.internal.ws.client.sei.SEIStub.invoke(SEIStub.java:147)
+	at com.sun.proxy.$Proxy33.orderProduct(Unknown Source)
+	at testExercise01.orderProduct(testExercise01.java:48)
+	at testExercise01.test_getOrderInfo_returns_string(testExercise01.java:17)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.&lt;init&gt;(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1167)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1146)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:997)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:931)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream0(HttpURLConnection.java:1281)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1256)
+	at com.sun.xml.internal.ws.transport.http.client.HttpClientTransport.getOutput(HttpClientTransport.java:104)
+</error>
+  </testcase>
+  <testcase classname="testExercise01" name="test_getOrderInfo_notPaid_returns_correct_string" time="0.053">
+    <error message="HTTP transport error: java.net.ConnectException: Connection refused" type="com.sun.xml.internal.ws.client.ClientTransportException">com.sun.xml.internal.ws.client.ClientTransportException: HTTP transport error: java.net.ConnectException: Connection refused
+	at com.sun.xml.internal.ws.transport.http.client.HttpClientTransport.getOutput(HttpClientTransport.java:117)
+	at com.sun.xml.internal.ws.transport.http.client.HttpTransportPipe.process(HttpTransportPipe.java:208)
+	at com.sun.xml.internal.ws.transport.http.client.HttpTransportPipe.processRequest(HttpTransportPipe.java:130)
+	at com.sun.xml.internal.ws.transport.DeferredTransportPipe.processRequest(DeferredTransportPipe.java:95)
+	at com.sun.xml.internal.ws.api.pipe.Fiber.__doRun(Fiber.java:1121)
+	at com.sun.xml.internal.ws.api.pipe.Fiber._doRun(Fiber.java:1035)
+	at com.sun.xml.internal.ws.api.pipe.Fiber.doRun(Fiber.java:1004)
+	at com.sun.xml.internal.ws.api.pipe.Fiber.runSync(Fiber.java:862)
+	at com.sun.xml.internal.ws.client.Stub.process(Stub.java:448)
+	at com.sun.xml.internal.ws.client.sei.SEIStub.doProcess(SEIStub.java:178)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:93)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:77)
+	at com.sun.xml.internal.ws.client.sei.SEIStub.invoke(SEIStub.java:147)
+	at com.sun.proxy.$Proxy33.orderProduct(Unknown Source)
+	at testExercise01.orderProduct(testExercise01.java:48)
+	at testExercise01.test_getOrderInfo_notPaid_returns_correct_string(testExercise01.java:25)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.&lt;init&gt;(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1167)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1146)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:997)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:931)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream0(HttpURLConnection.java:1281)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1256)
+	at com.sun.xml.internal.ws.transport.http.client.HttpClientTransport.getOutput(HttpClientTransport.java:104)
+</error>
+  </testcase>
+  <testcase classname="testExercise01" name="test_getOrderInfo_paid_returns_correct_string" time="0.081">
+    <error message="HTTP transport error: java.net.ConnectException: Connection refused" type="com.sun.xml.internal.ws.client.ClientTransportException">com.sun.xml.internal.ws.client.ClientTransportException: HTTP transport error: java.net.ConnectException: Connection refused
+	at com.sun.xml.internal.ws.transport.http.client.HttpClientTransport.getOutput(HttpClientTransport.java:117)
+	at com.sun.xml.internal.ws.transport.http.client.HttpTransportPipe.process(HttpTransportPipe.java:208)
+	at com.sun.xml.internal.ws.transport.http.client.HttpTransportPipe.processRequest(HttpTransportPipe.java:130)
+	at com.sun.xml.internal.ws.transport.DeferredTransportPipe.processRequest(DeferredTransportPipe.java:95)
+	at com.sun.xml.internal.ws.api.pipe.Fiber.__doRun(Fiber.java:1121)
+	at com.sun.xml.internal.ws.api.pipe.Fiber._doRun(Fiber.java:1035)
+	at com.sun.xml.internal.ws.api.pipe.Fiber.doRun(Fiber.java:1004)
+	at com.sun.xml.internal.ws.api.pipe.Fiber.runSync(Fiber.java:862)
+	at com.sun.xml.internal.ws.client.Stub.process(Stub.java:448)
+	at com.sun.xml.internal.ws.client.sei.SEIStub.doProcess(SEIStub.java:178)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:93)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:77)
+	at com.sun.xml.internal.ws.client.sei.SEIStub.invoke(SEIStub.java:147)
+	at com.sun.proxy.$Proxy33.orderProduct(Unknown Source)
+	at testExercise01.orderProduct(testExercise01.java:48)
+	at testExercise01.test_getOrderInfo_paid_returns_correct_string(testExercise01.java:33)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.&lt;init&gt;(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1167)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1146)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:997)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:931)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream0(HttpURLConnection.java:1281)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1256)
+	at com.sun.xml.internal.ws.transport.http.client.HttpClientTransport.getOutput(HttpClientTransport.java:104)
+</error>
+  </testcase>
+  <testcase classname="testExercise01" name="test_getOrderInfo_orderNumber_not_found" time="0.045">
+    <error message="HTTP transport error: java.net.ConnectException: Connection refused" type="com.sun.xml.internal.ws.client.ClientTransportException">com.sun.xml.internal.ws.client.ClientTransportException: HTTP transport error: java.net.ConnectException: Connection refused
+	at com.sun.xml.internal.ws.transport.http.client.HttpClientTransport.getOutput(HttpClientTransport.java:117)
+	at com.sun.xml.internal.ws.transport.http.client.HttpTransportPipe.process(HttpTransportPipe.java:208)
+	at com.sun.xml.internal.ws.transport.http.client.HttpTransportPipe.processRequest(HttpTransportPipe.java:130)
+	at com.sun.xml.internal.ws.transport.DeferredTransportPipe.processRequest(DeferredTransportPipe.java:95)
+	at com.sun.xml.internal.ws.api.pipe.Fiber.__doRun(Fiber.java:1121)
+	at com.sun.xml.internal.ws.api.pipe.Fiber._doRun(Fiber.java:1035)
+	at com.sun.xml.internal.ws.api.pipe.Fiber.doRun(Fiber.java:1004)
+	at com.sun.xml.internal.ws.api.pipe.Fiber.runSync(Fiber.java:862)
+	at com.sun.xml.internal.ws.client.Stub.process(Stub.java:448)
+	at com.sun.xml.internal.ws.client.sei.SEIStub.doProcess(SEIStub.java:178)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:93)
 	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:77)
 	at com.sun.xml.internal.ws.client.sei.SEIStub.invoke(SEIStub.java:147)
 	at com.sun.proxy.$Proxy33.getOrderInfo(Unknown Source)
 	at testExercise01.getOrderInfo(testExercise01.java:54)
 	at testExercise01.test_getOrderInfo_orderNumber_not_found(testExercise01.java:42)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.&lt;init&gt;(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1167)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1146)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:997)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:931)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream0(HttpURLConnection.java:1281)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1256)
+	at com.sun.xml.internal.ws.transport.http.client.HttpClientTransport.getOutput(HttpClientTransport.java:104)
+</error>
+  </testcase>
+  <testcase classname="testExercise01" name="test_orderProduct_returns_correct_orderNumber" time="0.06">
+    <error message="HTTP transport error: java.net.ConnectException: Connection refused" type="com.sun.xml.internal.ws.client.ClientTransportException">com.sun.xml.internal.ws.client.ClientTransportException: HTTP transport error: java.net.ConnectException: Connection refused
+	at com.sun.xml.internal.ws.transport.http.client.HttpClientTransport.getOutput(HttpClientTransport.java:117)
+	at com.sun.xml.internal.ws.transport.http.client.HttpTransportPipe.process(HttpTransportPipe.java:208)
+	at com.sun.xml.internal.ws.transport.http.client.HttpTransportPipe.processRequest(HttpTransportPipe.java:130)
+	at com.sun.xml.internal.ws.transport.DeferredTransportPipe.processRequest(DeferredTransportPipe.java:95)
+	at com.sun.xml.internal.ws.api.pipe.Fiber.__doRun(Fiber.java:1121)
+	at com.sun.xml.internal.ws.api.pipe.Fiber._doRun(Fiber.java:1035)
+	at com.sun.xml.internal.ws.api.pipe.Fiber.doRun(Fiber.java:1004)
+	at com.sun.xml.internal.ws.api.pipe.Fiber.runSync(Fiber.java:862)
+	at com.sun.xml.internal.ws.client.Stub.process(Stub.java:448)
+	at com.sun.xml.internal.ws.client.sei.SEIStub.doProcess(SEIStub.java:178)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:93)
+	at com.sun.xml.internal.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:77)
+	at com.sun.xml.internal.ws.client.sei.SEIStub.invoke(SEIStub.java:147)
+	at com.sun.proxy.$Proxy33.orderProduct(Unknown Source)
+	at testExercise01.orderProduct(testExercise01.java:48)
+	at testExercise01.test_orderProduct_returns_correct_orderNumber(testExercise01.java:10)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.&lt;init&gt;(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1167)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1146)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:997)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:931)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream0(HttpURLConnection.java:1281)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1256)
+	at com.sun.xml.internal.ws.transport.http.client.HttpClientTransport.getOutput(HttpClientTransport.java:104)
 </error>
   </testcase>
   <system-out><![CDATA[]]></system-out>
