@@ -30,7 +30,7 @@
     </binding>
     <service name="hamAndEggsService">
         <port name="hamAndEggsPort" binding="tns:hamAndEggsBinding">
-            <soap:address location="http://localhost:${HttpDefaultPort}/hamAndEggsService/hamAndEggsPort"/>
+            <soap:address location="http://localhost:4949/hamAndEggsService/hamAndEggsPort"/>
         </port>
     </service>
     <plnk:partnerLinkType name="hamAndEggs">
