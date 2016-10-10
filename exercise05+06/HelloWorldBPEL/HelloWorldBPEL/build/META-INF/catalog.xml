@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://localhost:8080/ConcatApp/ConcatServiceService?wsdl" uri="../localhost_8080/ConcatApp/ConcatServiceService.wsdl"/>
+    <system systemId="http://localhost:8080/ConcatApp/ConcatServiceService?xsd=1" uri="../localhost_8080/ConcatApp/ConcatServiceService.xsd_1.xsd"/>
+</catalog>
